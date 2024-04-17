@@ -1,25 +1,24 @@
+/* Header Styles Start */
 .header {
   display: grid;
-  align-items: center;
   grid-template-columns: 39% 22% 39%;
   grid-template-rows: 1fr;
+  align-items: center;
 
-  padding: 92px 50px 90px;
-
-  font-weight: 400;
-  font-size: 18px;
-  line-height: 24px;
-  text-underline-offset: 2px;
+  padding: 93px 50px;
 }
 
 .header__links-list {
   display: flex;
   justify-content: space-between;
   list-style: circle;
+  font-size: 18px;
+  line-height: 24px;
 }
 
 .header__links-list-item {
   padding-left: 4px;
+  text-underline-offset: 4px;
 }
 
 .header__links-list-item_no-bullit {
@@ -41,4 +40,103 @@
 
 .address-list {
   padding: 0 36px;
+  list-style: none;
 }
+
+.address-list-item {
+  text-underline-offset: 3px;
+  font-size: 18px;
+  line-height: 24.3px;
+  letter-spacing: 0.1px;
+}
+
+/* Header Styles End */
+/*-*/
+/* Cover Styles Start */
+
+.cover {
+  height: 757px;
+  background-image: url(../images/cover.jpg);
+  background-size: cover;
+  background-position: center;
+  color: white;
+}
+
+.overlay {
+  position: absolute;
+  width: 1100px;
+  height: 757px;
+  pointer-events: none;
+  background-color: rgb(0, 0, 0, 0.6);
+}
+
+.cover__title {
+  position: relative;
+  align-items: center;
+  justify-content: center;
+  padding: 160px 20px 135px 50px;
+  line-height: 1.26;
+  width: 100%;
+}
+
+.aligned-text {
+  display: flex;
+  flex-wrap: wrap;
+  font-size: 100px;
+  text-transform: uppercase;
+  letter-spacing: 30px;
+}
+
+.aligned-text_center {
+  display: flex;
+  margin-left: 285px;
+}
+
+.aligned-text_right {
+  display: flex;
+  justify-content: end;
+  margin-top: -5px;
+}
+
+.letter-spacing-extended {
+  margin-right: 30px;
+}
+
+.no-letter-spacing {
+  margin-right: 0;
+}
+
+.cover__description {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  align-content: center;
+  padding: 0 50px;
+}
+
+.cover__description-text {
+  font-size: 22px;
+  line-height: 28px;
+  font-weight: 100;
+  text-transform: uppercase;
+  padding-left: 28px;
+  word-spacing: 19px;
+}
+.less-word__spacing {
+  word-spacing: 18px;
+}
+
+.bet-button {
+  background-color: transparent;
+  color: white;
+  font-size: 22px;
+
+  padding: 12px 32px;
+  margin-top: -14px;
+  border: 1px solid white;
+  text-transform: uppercase;
+}
+
+/* Cover Styles End */
+/*-*/
+/* Lots Styles Start */
