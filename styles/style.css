@@ -1,24 +1,24 @@
 /* Header Styles Start */
 .header {
   display: grid;
-  grid-template-columns: 39% 22% 39%;
+  grid-template-columns: 1fr 166px 1fr;
   grid-template-rows: 1fr;
   align-items: center;
 
-  padding: 93px 50px 91px 50px;
+  padding: 92px 24px 92px;
   width: 1100px;
 }
 
 .header__links-list {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
+  gap: 34px;
   list-style: circle;
   font-size: 18px;
   line-height: 24px;
 }
 
 .header__links-list-item {
-  padding-left: 4px;
   text-underline-offset: 4px;
 }
 
@@ -40,7 +40,7 @@
 }
 
 .address-list {
-  padding: 0 36px;
+  padding: 0 60px;
   list-style: none;
 }
 
