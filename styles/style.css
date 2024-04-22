@@ -33,13 +33,15 @@
   height: 105px;
 }
 
+.header__address {
+  margin-left: 178px;
+}
+
 .address {
-  display: flex;
-  justify-content: end;
+  justify-self: flex-start;
 }
 
 .address-list {
-  padding: 0 60px;
   list-style: none;
 }
 
@@ -49,7 +51,7 @@
   font-size: 18px;
   font-weight: 400;
   line-height: 24.3px;
-  letter-spacing: 0.01em;
+  letter-spacing: 0.0035em;
 }
 
 /* Header Styles End */
@@ -267,4 +269,46 @@
   font-weight: 400;
   line-height: 24px;
   letter-spacing: 0.01em;
+}
+
+.footer {
+  padding: 150px 50px 86px;
+  display: grid;
+  grid: 1fr / 1fr 1fr 1fr;
+  width: 100%;
+  justify-content: end;
+}
+
+.footer__menu {
+  justify-self: center;
+  text-align: center;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 21px;
+}
+
+.footer__menu-link {
+  text-decoration: underline;
+  text-decoration-line: underline;
+  text-decoration-thickness: 0.5px;
+  text-underline-offset: 3px;
+}
+
+.footer__menu-link_active {
+  text-decoration: none;
+}
+
+.footer__menu-list {
+  list-style: none;
+}
+
+.footer__social-list {
+  list-style: none;
+  display: flex;
+  justify-content: end;
+  gap: 48px;
+}
+
+.footer__social-list-item {
+  width: 48px;
 }
