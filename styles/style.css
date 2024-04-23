@@ -38,12 +38,8 @@
 
 .address {
   justify-self: flex-start;
-}
-
-.address-list {
   display: flex;
   flex-direction: column;
-  gap: 1px;
 }
 
 .address-list-item {
