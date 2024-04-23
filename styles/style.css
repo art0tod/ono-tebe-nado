@@ -58,7 +58,7 @@
 
 .cover {
   position: relative;
-  padding: 0 0 51px 0;
+  padding: 0 0 46px 0;
   background-image: url(../images/cover.jpg);
   background-size: cover;
   background-position: center;
@@ -75,39 +75,38 @@
 
 .cover__title {
   position: relative;
-  align-items: center;
-  justify-content: center;
-  padding: 160px 20px 135px 50px;
+  padding: 166px 50px 134px 50px;
   width: 100%;
   z-index: 1;
+  font-size: 100px;
+  text-transform: uppercase;
+  font-weight: 700;
+  letter-spacing: 0.3em;
 }
 
 .aligned-text {
-  display: flex;
-  flex-wrap: wrap;
-  font-size: 100px;
-  line-height: 1.26em;
-  text-transform: uppercase;
-  letter-spacing: 30px;
+  display: block;
+  line-height: 1.15em;
 }
 
 .aligned-text_center {
-  display: flex;
-  margin-left: 285px;
+  display: block;
+  text-align: center;
+  line-height: 1.37em;
 }
 
 .aligned-text_right {
-  display: flex;
-  justify-content: end;
-  margin-top: -5px;
+  display: block;
+  text-align: end;
+  line-height: 1.03em;
 }
 
 .letter-spacing-extended {
-  margin-right: 30px;
+  letter-spacing: 0.6em;
 }
 
 .no-letter-spacing {
-  margin-right: 0;
+  letter-spacing: initial;
 }
 
 .cover__description {
@@ -115,12 +114,12 @@
   display: flex;
   justify-content: space-between;
   align-content: center;
-  padding: 0 50px;
+  padding: 0 50px 3px;
 }
 
 .cover__description-text {
   font-size: 22px;
-  line-height: 1.27em;
+  line-height: 2.4em;
   font-weight: 100;
   text-transform: uppercase;
   padding-left: 28px;
@@ -134,10 +133,11 @@
   background-color: transparent;
   color: white;
   font-size: 22px;
-
-  padding: 12px 32px;
-  margin-top: -14px;
+  font-weight: 500;
+  line-height: 0.6em;
+  padding: 0 32px;
   border: 1px solid white;
+  border-style: inset;
   text-transform: uppercase;
 }
 
